@@ -1,0 +1,99 @@
+.background{
+    background:#dac6ab;
+}
+
+.satauri{
+    font-size:40px;
+    
+    margin-top:-20px;
+}
+
+.container {
+    width:1600px;
+    margin: 0 auto;
+}
+
+.box{
+    width:120px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    padding:10px;
+    height:30px;
+    text-align: center;
+    background-color: #a5856c;
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box.active{
+    color:white;
+}
+
+.ragaca{
+    display:flex;
+
+}
+
+.content{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content img{
+    width:40%;
+}
+
+.content p{
+    width:50.5%;
+    font-size:18px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3ea4b1;
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000;
+  }
+
+  .first{
+    width:40%;
+  }
+
+  .first h3{
+      font-size:25px;
+  }
+
+  .suratebi img{
+      width:100px;
+      height:150px;
+      margin:5px 0;
+      cursor:pointer;
+      border:2px solid black;
+      border-radius: 2px;
+  }
+
+  .suratebi{
+    display:flex;
+    flex-wrap:wrap;
+    width:70%;
+    justify-content:space-between;
+  }
+
+  .suratebi img:hover{
+      opacity:0.5;
+      transition:200ms;
+  }
