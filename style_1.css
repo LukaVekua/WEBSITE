@@ -2,8 +2,8 @@
   background: #dac6ab;
 }
 
-*{
-  box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
 .satauri {
   font-size: 40px;
@@ -46,8 +46,17 @@
   justify-content: space-between;
 }
 
+.nav a {
+  text-decoration: none;
+  color: #000;
+}
+
 .box.active {
   color: white;
+}
+
+.box.active > a > h3 {
+  color: #fff;
 }
 
 .ragaca {
@@ -153,7 +162,6 @@
 .kide_rame {
   display: flex;
   align-items: flex-start;
-
 }
 
 .amasac_kide_rame {
@@ -175,56 +183,77 @@
   justify-content: space-between;
 }
 
-
 .suratebi_2 img {
   width: 200px;
   height: 350px;
-  border:2px solid black;
-  border-radius:5px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
-.ragac_klasi{
-  display:flex;
+.ragac_klasi {
+  display: flex;
   justify-content: space-between;
 }
 
-.suratebi_2{
-  width:100%;
+.suratebi_2 {
+  width: 100%;
 }
 
-.second{
-  width:50%
+.second {
+  width: 50%;
 }
 
-.second,.first{
-  margin:30px 0;
-  padding:20px;
-  border-radius:5px;
-  border:2px solid rgb(212, 72, 72);
+.second,
+.first {
+  margin: 30px 0;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(212, 72, 72);
 }
 
-.suratebi_2 img:hover{
-  opacity:0.5;
-  transition:200ms;
-  cursor:pointer;
+.suratebi_2 img:hover {
+  opacity: 0.5;
+  transition: 200ms;
+  cursor: pointer;
 }
 
-footer{
-  position:relative;
-  left:0;
-  text-align:center;
-  border-top:2px solid black;
-  bottom:0px;
-  font-size:20px;
-  height:50px;
+footer {
+  position: fixed;
+  left: 0;
+  text-align: center;
+  border-top: 2px solid black;
+  bottom: 0px;
+  font-size: 20px;
+  height: 50px;
+  width: 100%;
+  background: #dac6ab;
 }
 
-.footer{
-  display:flex;
-  justify-content:center;
+.footer {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  height:50px;
-  position:relative;
-  right:70px;
-  font-weight:bold;
+  height: 50px;
+  position: relative;
+  right: 70px;
+  font-weight: bold;
+}
+
+.content__best {
+  margin-bottom: 50px;
+}
+
+.box h3:hover {
+  color: #fff;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.box {
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.box:hover > h3 {
+  color: #fff;
 }

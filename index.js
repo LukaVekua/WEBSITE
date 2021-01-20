@@ -6,6 +6,8 @@ const popup = document.querySelector('.popup');
 
 for(let i =0; i<13; i++) {
 
+
+
     imgModal[i].addEventListener('click', () => {
         overlay.classList.add('active');
         popup.innerHTML = `<img src="` + imgModal[i].src + `">`;
@@ -16,6 +18,8 @@ for(let i =0; i<13; i++) {
     })
 
 }
+
+
 
 
 
