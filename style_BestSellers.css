@@ -218,7 +218,7 @@
 }
 
 footer {
-  position: fixed;
+  position: static;
   left: 0;
   text-align: center;
   border-top: 2px solid black;
@@ -227,6 +227,7 @@ footer {
   height: 50px;
   width: 100%;
   background: #dac6ab;
+  margin-top:50px;
 }
 
 .footer {
@@ -257,3 +258,4 @@ footer {
 .box:hover > h3 {
   color: #fff;
 }
+

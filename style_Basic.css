@@ -1,0 +1,13 @@
+.last_2{
+    display:flex;
+    justify-content: space-between;
+}
+
+.last_2 img{
+    max-width:700px;
+    height:700px;
+}
+
+.container > div:nth-child(2){
+    margin-top:30px;
+}

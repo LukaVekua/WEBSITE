@@ -1,0 +1,89 @@
+
+
+.div1{
+    width: 450px;
+    height: 400px;
+    border: solid 2px black;
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+}
+.div2{
+    margin-top: 20px;
+    margin-left: 35px;
+    height: 20px;
+    position: relative;
+    display: flex;
+}
+.button1{
+    background-color: rgba(184, 176, 176, 0.226);
+    color: White;
+    border-radius: 10px;
+    border-color: transparent;
+    outline: none;
+    position: absolute;
+    min-width: 150px;
+    height: 24px;
+}
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(1px);
+  }
+.button1:hover{
+    background-color: rgb(175, 175, 175);
+    box-shadow:1px 0px 10px 5px rgba(255, 255, 255, 0.19);
+}
+.button2{
+    margin-left: 280px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgba(184, 176, 176, 0.226);
+    border: transparent;
+    outline: none;
+    color: White;
+    border-radius: 10px;
+    font-size: large;
+    position: absolute;
+}
+.button2:hover{
+    background-color: rgb(175, 175, 175);
+    box-shadow:1px 0px 10px 5px rgba(255, 255, 255, 0.19);
+}
+.button3{
+    margin-left: 360px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgba(184, 176, 176, 0.226);
+    border: transparent;
+    outline: none;
+    color: White;
+    border-radius: 10px;
+    font-size: large;
+    position: absolute;
+}
+.button3:hover{
+    background-color: rgb(175, 175, 175);
+    box-shadow:1px 0px 10px 5px rgba(255, 255, 255, 0.19);
+}
+
+.clock_style{
+    font-size: 30px;
+    margin-left: 160px;
+}
+
+table,tr,td{
+    border: solid 1px white;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+    border-spacing: 10px;
+    text-align: center;
+}
+td{
+    height: 30px;
+    min-width: 30px;
+}
+table{
+    border-color: transparent;
+}
