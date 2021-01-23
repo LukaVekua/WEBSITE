@@ -1,0 +1,94 @@
+.carousel-custom {
+  height: 800px !important;
+  width: 100% !important;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.carousel-custom img {
+  width: 100%;
+  height: 800px;
+}
+
+
+.satauri h1{
+  font-size:80px;
+  font-weight:bold;
+}
+
+
+.box{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height:45px;
+}
+
+.box h3{
+  font-size:20px;
+  font-weight:bold;
+  font-family:'Times New Roman', Times, serif;
+  margin:0;
+}
+
+.nav{
+  margin-top:10px;
+}
+
+.dropdown-box button{
+  background:#3b7f56 !important;
+  color:rgb(212, 72, 72) !important;
+  font-weight:bold;
+}
+
+.container{
+  max-width:1500px;
+}
+
+body{
+  margin:0 !important;
+}
+
+.dropdown-menu a{
+  color:rgb(212, 72, 72) !important;
+  font-weight:bold;
+}
+
+
+.dropdown-menu a img{
+  width:20px;
+  height:15px;
+  margin-right:5px;
+}
+
+
+.qveda{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top:3px solid rgb(212, 72, 72);
+}
+
+.qveda h3{
+  font-weight:bold;
+}
+
+#fb{
+  font-size:80px;
+  color:blue;
+}
+
+#yt{
+  font-size:80px;
+  color:red;
+}
+
+#insta{
+  font-size:80px;
+  background:linear-gradient(#515BD4,#DD2A7B,#515BD4);
+  border-radius:10px;
+  color:#515BD4;
+}
+
+

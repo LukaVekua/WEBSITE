@@ -1,0 +1,268 @@
+.background {
+  background: #dac6ab;
+}
+
+* {
+  box-sizing: border-box;
+}
+.satauri {
+  font-size: 40px;
+  margin-top: -20px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3ea4b1;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  height: 45px;
+  text-align: center;
+  background-color: #a5856c;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.box.active {
+  color: white;
+}
+
+.box.active > a > h3 {
+  color: #fff;
+}
+
+.ragaca {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content img {
+  width: 40%;
+}
+
+.content p {
+  width: 50.5%;
+  font-size: 18px;
+}
+
+.first {
+  width: 40%;
+}
+
+.first h3 {
+  font-size: 25px;
+}
+
+.suratebi img {
+  width: 100px;
+  height: 150px;
+  margin: 5px 0;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.suratebi {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.suratebi img:hover {
+  opacity: 0.5;
+  transition: 200ms;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  display: none;
+}
+
+.overlay.active {
+  display: block;
+}
+
+.close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background: none;
+  width: 50px;
+  height: 50px;
+  font-size: 2.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+}
+
+.close:active {
+  border: none;
+}
+
+.popup {
+  width: 500px;
+  height: 500px;
+  /* background: rgb(86, 0, 126); */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.popup img {
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.kide_rame {
+  display: flex;
+  align-items: flex-start;
+}
+
+.amasac_kide_rame {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  color: rgb(212, 72, 72);
+  margin-top: 35px;
+}
+
+.amasac_kide_rame h1:last-child {
+  margin-top: 110px;
+  margin-left: 35px;
+}
+
+.bs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.suratebi_2 img {
+  width: 200px;
+  height: 350px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.ragac_klasi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suratebi_2 {
+  width: 100%;
+}
+
+.second {
+  width: 50%;
+}
+
+.second,
+.first {
+  margin: 30px 0;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(212, 72, 72);
+}
+
+.suratebi_2 img:hover {
+  opacity: 0.5;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+
+.qveda{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top:3px solid rgb(212, 72, 72);
+}
+
+.qveda h3{
+  font-weight:bold;
+}
+
+#fb{
+  font-size:80px;
+  color:blue;
+}
+
+#yt{
+  font-size:80px;
+  color:red;
+}
+
+#insta{
+  font-size:80px;
+  background:linear-gradient(#515BD4,#DD2A7B,#515BD4);
+  border-radius:10px;
+  color:#515BD4;
+}
+
+.content__best {
+  margin-bottom: 50px;
+}
+
+.box h3:hover {
+  color: #fff;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.box {
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.box:hover > h3 {
+  color: #fff;
+}
+

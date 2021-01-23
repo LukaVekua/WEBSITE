@@ -1,0 +1,71 @@
+.klasi{
+    display:flex;
+    column-gap:450px;
+    align-items:center;
+}
+
+form input{
+    border-radius:5px;
+    padding:5px 10px;
+    font-size:18px;
+    border:1px solid #ccc;
+    outline:0;
+    margin:8px 0;
+    width:300px;
+}
+
+form input:focus{
+    border:2px solid rgb(212, 72, 72);
+}
+
+.knopka{
+    background:rgba(0, 0, 0, 0.788);
+    color:white;
+    cursor:pointer;
+    width:300px;
+    height:40px;
+    font-size:18px;
+    border:none;
+    text-transform: uppercase;
+}
+
+
+#seri_mandzili{
+    width:fit-content;
+}
+
+.div1 p{
+    text-align:center;
+    padding:10px;
+    font-size:16px;
+    font-weight:500;
+}
+
+.qveda{
+    height: 100px;
+    border-top:3px solid rgb(212, 72, 72);
+    position:absolute;
+    bottom:0px;
+    width:1600px;
+  }
+  
+  .qveda h3{
+    font-weight:bold;
+  }
+  
+  #fb{
+    font-size:80px;
+    color:blue;
+  }
+  
+  #yt{
+    font-size:80px;
+    color:red;
+  }
+  
+  #insta{
+    font-size:80px;
+    background:linear-gradient(#515BD4,#DD2A7B,#515BD4);
+    border-radius:10px;
+    color:#515BD4;
+  }
