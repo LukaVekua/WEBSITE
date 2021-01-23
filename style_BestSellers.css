@@ -217,27 +217,34 @@
   cursor: pointer;
 }
 
-footer {
-  position: static;
-  left: 0;
-  text-align: center;
-  border-top: 2px solid black;
-  bottom: 0px;
-  font-size: 20px;
-  height: 50px;
-  width: 100%;
-  background: #dac6ab;
-  margin-top:50px;
+
+.qveda{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top:3px solid rgb(212, 72, 72);
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  position: relative;
-  right: 70px;
-  font-weight: bold;
+.qveda h3{
+  font-weight:bold;
+}
+
+#fb{
+  font-size:80px;
+  color:blue;
+}
+
+#yt{
+  font-size:80px;
+  color:red;
+}
+
+#insta{
+  font-size:80px;
+  background:linear-gradient(#515BD4,#DD2A7B,#515BD4);
+  border-radius:10px;
+  color:#515BD4;
 }
 
 .content__best {

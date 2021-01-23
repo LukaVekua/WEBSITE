@@ -10,10 +10,6 @@
   height: 800px;
 }
 
-footer {
-  margin-top: 50px !important;
-  position:relative;
-}
 
 .satauri h1{
   font-size:80px;
@@ -64,3 +60,35 @@ body{
   height:15px;
   margin-right:5px;
 }
+
+
+.qveda{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top:3px solid rgb(212, 72, 72);
+}
+
+.qveda h3{
+  font-weight:bold;
+}
+
+#fb{
+  font-size:80px;
+  color:blue;
+}
+
+#yt{
+  font-size:80px;
+  color:red;
+}
+
+#insta{
+  font-size:80px;
+  background:linear-gradient(#515BD4,#DD2A7B,#515BD4);
+  border-radius:10px;
+  color:#515BD4;
+}
+
+

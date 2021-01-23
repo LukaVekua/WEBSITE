@@ -11,3 +11,34 @@
 .container > div:nth-child(2){
     margin-top:30px;
 }
+
+
+.qveda{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top:2px solid black;
+    border-top:3px solid rgb(212, 72, 72);
+  }
+  
+  .qveda h3{
+    font-weight:bold;
+  }
+  
+  #fb{
+    font-size:80px;
+    color:blue;
+  }
+  
+  #yt{
+    font-size:80px;
+    color:red;
+  }
+  
+  #insta{
+    font-size:80px;
+    background:linear-gradient(#515BD4,#DD2A7B,#515BD4);
+    border-radius:10px;
+    color:#515BD4;
+  }
