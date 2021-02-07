@@ -28,17 +28,22 @@
 
 
 
+
 .btns button {
   width: 300px;
-  height: 45px;
+  height: 50px;
   padding: 10px;
   border: 1px solid black;
   border-radius:5px;
   cursor: pointer;
   background:#3b7f56;
-  font-size: 22px;
+  font-size: 21px;
   outline: none;
   color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .btns button:hover {
